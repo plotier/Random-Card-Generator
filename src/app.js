@@ -18,6 +18,8 @@ function crearPalo() {
   let dibujoBis = document.querySelector("#palo2");
   let chico = getRandomInt(1, 5);
 
+  dibujo.style.fontSize = "100px";
+  dibujoBis.style.fontSize = "100px";
   switch (chico) {
     case 1:
       dibujo.innerHTML = "♣";
@@ -47,6 +49,7 @@ function crearPalo() {
 function crearNumero() {
   let valor = document.querySelector("#numero");
   let grande = getRandomInt(1, 14);
+  valor.style.fontSize = "100px";
 
   switch (grande) {
     case 1:

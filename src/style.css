@@ -1,6 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background: green;
+  height: 100vh;
+  overflow: hidden;
 }
-li {
+.card-border {
+  border-radius: 3%;
+}
+#palo2 {
+  transform: rotate(-180deg);
 }
